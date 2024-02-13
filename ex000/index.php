@@ -6,7 +6,7 @@
     <title>Começando PHP</title>
 </head>
 <body>
-    <?php 
+    <?php
         echo "Hello Wolrd! \u{2620}";
         //print "" também funciona
     ?>
