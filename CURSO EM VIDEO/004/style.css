@@ -1,0 +1,14 @@
+body{
+    background-color: #2E5A94;
+    text-align: center;
+}
+main{
+    width: 500px;
+    height: 400px;
+    background-color: #193150;
+    color: white;
+    margin: auto;border-radius: 5px;
+    padding: 15px;
+    text-align: left;
+    font-size: 1.5em;
+}
