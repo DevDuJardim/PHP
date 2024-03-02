@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudos PHP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <form action="perfil.php" method="get">
+            Nome: <input type="text" name="nome"><br>
+            Ano de nascimento: <input type="number" name="ano">
+            <fieldset>
+                <legend>Sexo</legend>
+                <input type="radio" name="sexo" id="masc" value="Masculino">
+                <label for="masc">Masculino</label><br>
+                <input type="radio" name="sexo" id="fem" value="Feminino">
+                <label for="fem">Feminino</label>
+            </fieldset>
+            <input type="submit" value="enviar">
+        </form>
+    </main>
+</body>
+</html>
