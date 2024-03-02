@@ -7,12 +7,10 @@
 </head>
 <body>
     <h1>Exemplo de PHP</h1>
-    <?php 
+    <?php
         date_default_timezone_set("America/Sao_Paulo");
         echo "Hoje e dia " . date("d/D/M/Y");
         echo " A hora atual é " . date("G:i:s T");
-       
-
     ?>
 </body>
 </html>
